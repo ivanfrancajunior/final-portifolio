@@ -7,7 +7,7 @@ const navbar = document.querySelector("header");
 
 window.addEventListener("scroll", () => {
   if (window.scrollY > 0) {
-    navbar.classList.add("fixed", "bg-[#1a1a1a]", "shadow-md", "w-full", "transition","duration-75"  );
+    navbar.classList.add("fixed", "bg-[#1a1a1a]", "shadow-md", "w-full", "transition","duration-100"  );
   } else {
     navbar.classList.remove("fixed", "bg-[#1a1a1a]", "shadow-md");
   }

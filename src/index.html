@@ -1,20 +1,22 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" s>
 
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./css/styles.css">
-    <script src="https://kit.fontawesome.com/de306f5493.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+        integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
     <script src="js/main.js" defer></script>
     <title>Document</title>
 </head>
 
-<body class="bg-[#1a1a1a] text-white container mx-auto max-w-[1440px]">
+<body class="bg-[#1a1a1a] text-white ">
 
-    <div class="container">
+    <div class="container  mx-auto">
 
-        <header class="p-4 ">
+        <header class="px-8 p-4 mb-4">
             <div class="flex justify-between items-center ">
                 <div class="">
                     <h3 class="font-bold text-2xl">Ivan Jr.</h3>
@@ -26,12 +28,11 @@
                     <p><a class="text-2xl hover:text-[#ffc814] trasition duration-300" href="#projects">Projectos</a>
                     </p>
                     <p><a class="text-2xl hover:text-[#cec29d] trasition duration-300" href="#services">Serviços</a></p>
-                    <p><a class="text-2xl hover:text-[#ffc814] trasition duration-300" href="#skills">Minhas skils</a>
+                    <p><a class="text-2xl hover:text-[#ffc814] trasition duration-300" href="#skills">Habilidades</a>
                     </p>
                 </nav>
             </div>
-            <nav id="menu-mobile"
-                class=" hidden p-8 border rounded mt-10  flex-col items-center justify-start h-auto w-full">
+            <nav id="menu-mobile" class=" hidden p-8  rounded mt-10  flex-col items-center justify-start h-auto w-full">
                 <p><a class="text-2xl hover:text-[#ffc814] trasition duration-300" href="#about-me">Sobre mim</a></p>
                 <p><a class="text-2xl hover:text-[#ffc814] trasition duration-300" href="#contacts">Contato</a></p>
                 <p><a class="text-2xl hover:text-[#ffc814] trasition duration-300" href="#projects">Projectos</a></p>
@@ -42,96 +43,133 @@
 
         <main>
             <div>
-                <section
-                    class=" min-h-[500px] p-8  flex items-center justify-around  bg-no-repeat bg-cover bg-center"
+                <section class=" min-h-[400px]   flex items-center justify-around bg-no-repeat bg-cover bg-center "
                     style="background-image: url('assets/bg-image.png');">
                     <div>
                         <div>
                             <h2 class="font-black text-center text-[64px] mb-8 ">
                                 Olá, eu sou o Ivan
                             </h2>
-                            <p class="text-2xl mb-8 text-center font-bold">
+                            <p class="text-2xl mb-8 mt-10 text-center font-bold">
                                 DESENVOLVEDOR FRONT END
                             </p>
                         </div>
-                        <div class="flex items-center justify-center gap-4 mx-auto">
-                            <button id="green"
-                                class="py-3 px-4 bg-[#ffc814] text-white font-bold hover:bg-[#b8900e] transition duration-300 rounded">
-                                <a href="#" download>Baixar CV</a>
-                            </button>
-                            <button id="black"
-                                class="py-3 px-4 bg-[#ea5e38] text-white font-bold hover:bg-[#b5482b] transition duration-300 rounded">
-                                <a href="#">Entrar em contato</a>
-                            </button>
+                        <div class="flex gap-8 items-center justify-center h-8 mt-20 ">
+                            <span>
+                                <a href="http://" target="_blank" rel="noopener noreferrer">
+                                    <img src="assets/envelope-duotone.svg" alt="gmail"
+                                        class="transition duration-300 hover:translate-y-1">
+                                </a>
+                            </span>
+                            <span>
+                                <a href="http://" target="_blank" rel="noopener noreferrer">
+                                    <img src="assets/linkedin-logo-duotone.svg" alt="linkedin"
+                                        class="transition duration-300 hover:translate-y-1">
+                                </a>
+                            </span>
+                            <span>
+                                <a href="http://" target="_blank" rel="noopener noreferrer">
+                                    <img src="assets/github-logo-duotone.svg" alt="github"
+                                        class="transition duration-300 hover:translate-y-1">
+                                </a>
+                            </span>
+                            <span>
+                                <a href="http://" target="_blank" rel="noopener noreferrer">
+                                    <img src="assets/twitter-logo-duotone.svg" alt="twitter"
+                                        class="transition duration-300 hover:translate-y-1">
+                                </a>
+                            </span>
                         </div>
                     </div>
 
                 </section>
-                <br id="about-me" class="mt-8">
+
+                <br id="about-me" class="mt-10">
+
                 <section class=" flex justify-center items-center flex-col  p-8">
+
                     <h3 class="font-bold text-3xl md:text-4xl mb-8" id="about-me">Sobre</h3>
-                    <p class="font-normal text-xl md:text-2xl text-center text-gray-500">
-                        Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor
-                        incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
-                        exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure
-                        dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
-                        Excepteur sint occaecat cupidatat non proident
+
+                    <p class="font-normal text-xl md:text-2xl text-center md:text-start text-[#738083] w-[95%]">
+                        Sou um desenvolvedor Front-End em busca de uma oportunidade para aplicar minhas habilidades na
+                        criação de interfaces atraentes e intuitivas, além de desenvolver sistemas inovadores.
+                        <br>
+                        Atualmente, estou focado em tecnologias web essenciais, como Javascript, Typescript, Reactjs,
+                        NodeJs e Tailwind CSS. Estou sempre em busca de desafios que impulsionem meu crescimento como
+                        desenvolvedor, unindo criatividade e competências técnicas.
+
+                        <br>
+
+                        Estou à disposição para uma conversa produtiva sobre como posso contribuir com um novo projeto e
+                        explorar maneiras de agregar a ele com minhas habilidades!
                     </p>
                 </section>
 
                 <br id="contacts" class="mt-8">
                 <div class="skill_title mb-6 ">
-                    <h3 class="font-bold text-3xl md:text-4xl mb-8 text-center">Contato</h3>
+                    <h3 class="font-bold text-3xl md:text-4xl my-8 text-center">Contato</h3>
                 </div>
                 <section
-                    class="flex  justify-between items-center gap-4  bg-orange-300 p-8 text-center flex-wrap">
+                    class="flex  justify-between items-center gap-4  flex-wrap p-8 text-center md:max-w-[75%] mx-auto mt-10">
 
-                    <div class="media flex justify-center items-center flex-col bg-pink-400 p-2 w-[140px] ">
+                    <div class="media flex justify-center items-center flex-col p-2 w-[54px] md:w-[140px]">
                         <div
-                            class="icon_bg bg-medium-dark rounded-full w-16 h-16 flex  justify-center items-center mb-8">
-                            <i class="far fa-smile text-green text-3xl"></i>
+                            class="icon_bg bg-transparent rounded-full w-16 h-16 flex hover:translate-y-1   transition duration-300 justify-center items-center mb-2">
+                            <a href="#" target="_blank">
+
+                                <img src="./assets/linkedin.svg" alt="Linkedin">
+                            </a>
                         </div>
                         <div>
-                            <p class="font-bold text-lg md:text-xl mb-2">Meu Nome</p>
-                            <span class="font-normal text-base md:text-lg text-gray-500">Daniel Sá</span>
+                            <p class="font-bold text-lg md:text-xl mb-2 hover:text-yellow-200">Linkedin</p>
+
                         </div>
                     </div>
-                    <div class="media flex justify-center items-center flex-col bg-pink-400 p-2 w-[140px]">
+                    <div class="media flex justify-center items-center flex-col  p-2 w-[54px]">
                         <div
-                            class="icon_bg bg-medium-dark rounded-full w-16 h-16 flex justify-center items-center mb-8">
-                            <i class="far fa-envelope text-green text-3xl"></i>
+                            class="icon_bg bg-medium-dark rounded-full w-16 h-16 flex hover:translate-y-1   transition duration-300 justify-center items-center mb-2">
+                            <a href="#" target="_blank">
+
+                                <img src="./assets/icons8-gmail.svg" alt="Email">
+                            </a>
                         </div>
                         <div class="description">
-                            <p class="font-bold text-lg md:text-xl mb-2">Email</p>
-                            <span class="font-normal text-base md:text-lg text-gray-500">danielviana18@gmail.com</span>
+                            <p class="font-bold text-lg md:text-xl mb-2 hover:text-yellow-200">Email</p>
+
                         </div>
                     </div>
-                    <div class="media flex justify-center items-center flex-col bg-pink-400 p-2 w-[140px]">
+                    <div class="media flex justify-center items-center flex-col  p-2 w-[54px]">
                         <div
-                            class="icon_bg bg-medium-dark rounded-full w-16 h-16 flex justify-center items-center mb-8">
-                            <i class="fab fa-instagram text-green text-3xl"></i>
+                            class="icon_bg bg-medium-dark rounded-full w-16 h-16 flex hover:translate-y-1   transition duration-300 justify-center items-center mb-2">
+                            <a href="#" target="_blank">
+
+                                <img src="./assets/github.svg" alt="Github">
+                            </a>
                         </div>
                         <div class="description">
-                            <p class="font-bold text-lg md:text-xl mb-2">Instagram</p>
-                            <span class="font-normal text-base md:text-lg text-gray-500">@danieljvsa</span>
+                            <p class="font-bold text-lg md:text-xl mb-2 hover:text-yellow-200">Github</p>
+
                         </div>
                     </div>
-                    <div class="media flex justify-center items-center flex-col bg-pink-400 p-2 w-[140px]">
+                    <div class="media flex justify-center items-center flex-col  p-2 w-[54px]">
                         <div
-                            class="icon_bg bg-medium-dark rounded-full w-16 h-16 flex justify-center items-center mb-8">
-                            <i class="fas fa-phone-alt text-green text-3xl"></i>
+                            class="icon_bg bg-medium-dark rounded-full w-16 h-16 flex hover:translate-y-1   transition duration-300 justify-center items-center mb-2">
+                            <a href="#" target="_blank">
+
+                                <img src="./assets/icons8-twitter.svg" alt="Twitter">
+                            </a>
                         </div>
                         <div class="description">
-                            <p class="font-bold text-lg md:text-xl mb-2">Telefone</p>
-                            <span class="font-normal text-base md:text-lg text-gray-500">(14) 99999-9999</span>
+                            <p class="font-bold text-lg md:text-xl mb-2 hover:text-yellow-200">Twitter</p>
+
                         </div>
                     </div>
                 </section>
-                <br id="projects" class="mt-8">
+                <br id="projects" class="mt-10">
                 <div class="skill_title mb-6 ">
                     <h3 class="font-bold text-3xl md:text-4xl mb-8 text-center">Projetos</h3>
                 </div>
-                <section class="flex justify-between items-center gap-4  bg-orange-300 p-8 text-center flex-wrap">
+                <section class="flex justify-between items-center gap-4 mt-4 p-8 text-center flex-wrap">
 
                     <div class="flex flex-col items-center justify-center p-8  w-[370px] h-[250px] bg-red-400 mx-auto">
                         <div class="flex items-center justify-center w-24 h-32 bg-slate-300 mb-6">
@@ -173,12 +211,11 @@
                 </section>
 
 
-                <br id="services" class="mt-8">
+                <br id="services" class="mt-10">
                 <div class="skill_title mb-6 ">
-                    <h3 class="font-bold text-3xl md:text-4xl mb-8 text-center">serviços</h3>
+                    <h3 class="font-bold text-3xl md:text-4xl mb-8 text-center">Serviços</h3>
                 </div>
-                <section id="services"
-                    class="flex justify-between items-center gap-4 bg-orange-300 p-8 text-center flex-wrap">
+                <section id="services" class="flex justify-between items-center gap-4 p-8 text-center flex-wrap">
                     <div class="flex flex-col items-center justify-center p-8  w-[370px] h-[250px] bg-red-400 mx-auto">
                         <div class="flex items-center justify-center w-24 h-32 bg-slate-300 mb-6">
                             <img src="" alt="imagem">
@@ -208,49 +245,68 @@
                     </div>
                 </section>
                 <br id="skills" class="mt-8">
-                    <div class="skill_title mb-6 mt-10">
-                        <h3 class="font-bold text-3xl md:text-4xl mb-8 text-center">Skills</h3>
+                <div class="skill_title mb-6 mt-10">
+                    <h3 class="font-bold text-3xl md:text-4xl mb-8 text-center">Skills</h3>
+                </div>
+                <section id="services" class="flex justify-between items-center gap-4  mb-28 p-8 text-center flex-wrap">
+                    <div class="flex items-center justify-between gap-3 w-3/4 flex-wrap mx-auto ">
+                        <div class="flex flex-col items-center justify-center  mx-auto">
+                            <div class="flex items-center justify-center p-2 bg-[#343434] rounded-full ">
+                                <img src="./assets/javascript.svg" alt="javascript">
+                            </div>
+                            <div class="proj_content">
+                                <p class="font-bold text-lg mb-3">Javascript</p>
+
+                            </div>
+                        </div>
+                        <div class="flex flex-col items-center justify-center  mx-auto">
+                            <div class="flex items-center justify-center p-2 bg-[#343434] rounded-full ">
+                                <img src="./assets/typescript.svg" alt="javascript">
+                            </div>
+                            <div class="proj_content">
+                                <p class="font-bold text-lg mb-3">Typescript</p>
+
+                            </div>
+                        </div>
+                        <div class="flex flex-col items-center justify-center  mx-auto">
+                            <div class="flex items-center justify-center p-2 bg-[#343434] rounded-full ">
+                                <img src="./assets/icons8-react.svg" alt="javascript">
+                            </div>
+                            <div class="proj_content">
+                                <p class="font-bold text-lg mb-3">Reactjs</p>
+
+                            </div>
+                        </div>
+                        <div class="flex flex-col items-center justify-center  mx-auto">
+                            <div class="flex items-center justify-center p-2 bg-[#343434] rounded-full ">
+                                <img src="./assets/nodejs.svg" alt="javascript">
+                            </div>
+                            <div class="proj_content">
+                                <p class="font-bold text-lg mb-3">NodeJs</p>
+
+                            </div>
+                        </div>
+                        <div class="flex flex-col items-center justify-center  mx-auto">
+                            <div class="flex items-center justify-center p-2 bg-[#343434] rounded-full ">
+                                <img src="./assets/mongodb.png" alt="javascript">
+                            </div>
+                            <div class="proj_content">
+                                <p class="font-bold text-lg mb-3">Mongodb</p>
+
+                            </div>
+                        </div>
+
+
                     </div>
-                    <section id="services"
-                        class="flex justify-between items-center gap-4  mb-10 bg-orange-300 p-8 text-center flex-wrap">
-                        <div
-                            class="flex flex-col items-center justify-center p-8  w-[370px] h-[250px] bg-red-400 mx-auto">
-                            <div class="flex items-center justify-center w-24 h-32 bg-slate-300 mb-6">
-                                <img src="" alt="imagem">
-                            </div>
-                            <div class="proj_content">
-                                <p class="font-medium text-lg mb-3">Criação de sites</p>
 
-                            </div>
-                        </div>
-                        <div
-                            class="flex flex-col items-center justify-center p-8  w-[370px] h-[250px] bg-red-400 mx-auto">
-                            <div class="flex items-center justify-center w-24 h-32 bg-slate-300 mb-6">
-                                <img src="" alt="imagem">
-                            </div>
-                            <div class="proj_content">
-                                <p class="font-medium text-lg mb-3">Criação de sites</p>
-
-                            </div>
-                        </div>
-                        <div
-                            class="flex flex-col items-center justify-center p-8  w-[370px] h-[250px] bg-red-400 mx-auto">
-                            <div class="flex items-center justify-center w-24 h-32 bg-slate-300 mb-6">
-                                <img src="" alt="imagem">
-                            </div>
-                            <div class="proj_content">
-                                <p class="font-medium text-lg mb-3">Criação de sites</p>
-
-                            </div>
-                        </div>
-                    </section>
+                </section>
 
             </div>
         </main>
-        <footer class="footer p-4 bg-[#ea5e38] text-white text-center">
-            <p>Feito com carinho 🧡 </p>
-        </footer>
     </div>
+    <footer class="footer p-4 bg-[#ea5e38] text-white text-center">
+        <p>Feito com carinho 🧡 </p>
+    </footer>
 
 </body>
 
