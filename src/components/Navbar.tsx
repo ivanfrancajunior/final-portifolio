@@ -9,7 +9,7 @@ export const Navbar = () => {
 
   useEffect(() => {
     const handleScroll = () => {
-      const currentPosition = window.pageYOffset;
+      const currentPosition = window.scrollY;
       setScrolling(currentPosition < scrollTop);
       setScrollTop(currentPosition);
     };
