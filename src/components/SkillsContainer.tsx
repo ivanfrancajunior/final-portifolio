@@ -6,8 +6,8 @@ import { SkillSingleComponent } from "./SkillSingleComponent";
 export const SkillsContainer = () => {
   return (
     <Container>
-      <Label label="Habilidades" />
-      <div className="flex flex-col md:flex-row gap-5 flex-wrap ">
+      <Label label="Habilidades" id='skills'/>
+      <div className="flex flex-col md:flex-row gap-5">
         <SkillSingleComponent>
           <div className="h-12 w-12  p-2 flex items-center justify-center ">
             <RiSmartphoneLine size={36} color={"#f97316"} />

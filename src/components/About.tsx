@@ -4,10 +4,10 @@ import { Label } from "./Label";
 
 export const About = () => {
   return (
-    <Container>
-      <Label label="Sobre mim:" />
+    <Container >
+      <Label id={'about'} label="Sobre mim:" />
       
-        <div className="h-44 w-44 mb-5 ml-8">
+        <div className="h-44 w-44 mb-5 ml-8 " id='about'>
           <img
             src={myImage}
             alt="esse-que-tu-lês"

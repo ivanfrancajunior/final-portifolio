@@ -7,7 +7,7 @@ import { VscLiveShare, VscGithub } from "react-icons/vsc";
 export const ProjectsContainer = () => {
   return (
     <Container>
-      <Label label="Projetos:" />
+      <Label label="Projetos:" id="projects" />
       <div className="flex flex-col md:flex-row items-center justify-start gap-3">
         <ProjectComponent>
           <div className="flex items-center justify-center h-[206px] w-[320px] ">

@@ -16,7 +16,7 @@ import { WorkToolsComponent } from "./WorkToolsComponent";
 export const WorkToolsContainer = () => {
   return (
     <Container>
-      <Label label="Tecnologias:" />
+      <Label label="Tecnologias:" id={'stack'}/>
 
       <div className="flex  flex-wrap items-start justify-center md:start  gap-3  h-auto">
         <WorkToolsComponent>
