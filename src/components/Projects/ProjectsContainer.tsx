@@ -1,6 +1,6 @@
-import { Container } from "./Container";
-import { Label } from "./Label";
-import myImage from "../assets/default-image-96.png";
+import { Container } from "../Container";
+import { Label } from "../Label";
+import myImage from "../../assets/default-image-96.png";
 import { ProjectComponent } from "./ProjectComponent";
 import { VscLiveShare, VscGithub } from "react-icons/vsc";
 
@@ -29,12 +29,22 @@ export const ProjectsContainer = () => {
           </div>
           <div className="flex items-center justify-around px-5 w-full">
             <span>
-              <a href="http://google.com" target="_blank" rel="noopener noreferrer" className="hover:text-orange-500 transition duration-200 ">
+              <a
+                href="http://google.com"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="hover:text-orange-500 transition duration-200 "
+              >
                 <VscLiveShare size={30} />
               </a>
             </span>
             <span>
-              <a href="http://" target="_blank" rel="noopener noreferrer"className="hover:text-orange-500 transition duration-200">
+              <a
+                href="http://"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="hover:text-orange-500 transition duration-200"
+              >
                 <VscGithub size={30} />
               </a>
             </span>
@@ -60,12 +70,22 @@ export const ProjectsContainer = () => {
           </div>
           <div className="flex items-center justify-center gap-20 h-10 w-[70%]">
             <span>
-              <a href="http://google.com" target="_blank" rel="noopener noreferrer" className="hover:text-orange-500 transition duration-200 ">
+              <a
+                href="http://google.com"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="hover:text-orange-500 transition duration-200 "
+              >
                 <VscLiveShare size={30} />
               </a>
             </span>
             <span>
-              <a href="http://" target="_blank" rel="noopener noreferrer"className="hover:text-orange-500 transition duration-200">
+              <a
+                href="http://"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="hover:text-orange-500 transition duration-200"
+              >
                 <VscGithub size={30} />
               </a>
             </span>

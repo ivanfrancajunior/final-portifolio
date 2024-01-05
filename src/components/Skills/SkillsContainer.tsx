@@ -1,12 +1,12 @@
 import { RiLayoutMasonryFill, RiSmartphoneLine, RiTeamLine } from "react-icons/ri";
-import { Label } from "./Label";
-import { Container } from "./Container";
+import { Label } from "../Label";
+import { Container } from "../Container";
 import { SkillSingleComponent } from "./SkillSingleComponent";
 
 export const SkillsContainer = () => {
   return (
     <Container>
-      <Label label="Habilidades" id='skills'/>
+      <Label label="Habilidades" id="skills" />
       <div className="flex flex-col md:flex-row gap-5">
         <SkillSingleComponent>
           <div className="h-12 w-12  p-2 flex items-center justify-center ">
