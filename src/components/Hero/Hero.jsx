@@ -1,5 +1,5 @@
 import { Socials } from "../Socials";
-import { ProjectsButton } from "./ProjectsButton";
+import { Button } from "../Button";
 import { Stack } from "./Stack";
 
 const Hero = () => {
@@ -17,7 +17,7 @@ const Hero = () => {
           </h3>
           <h3 className="flex items-center justify-center"> Rio de janeiro, RJ.</h3>
           <Socials />
-          <ProjectsButton />
+          <Button>VER PROJETOS</Button>
         </div>
       </div>
       <Stack />

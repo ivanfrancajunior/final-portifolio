@@ -1,5 +1,5 @@
-import Moon from "../assets/Moon.svg";
-import Sum from "../assets/Sun.svg";
+import Moon from "../../assets/Moon.svg";
+import Sum from "../../assets/Sun.svg";
 
 const Switcher = ({ mode }) => {
   if (mode == "day") {

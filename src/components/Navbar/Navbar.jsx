@@ -1,4 +1,4 @@
-import LogoImage from "../assets/logoimage.png";
+import LogoImage from "../../assets/logoimage.png";
 import { Switcher } from "./Switcher";
 import { useState, useEffect } from "react";
 
