@@ -1,9 +1,9 @@
 const Container = ({ children, mode }) => {
   return (
     <div
-      className={`container flex flex-col min-h-screen text-white ${
-        mode === "day" ? "bg-[##E9E9E9]" : "bg-[#1a1a1a]"
-      } items-center mx-auto`}
+      className={`pt-20 container flex flex-col min-h-screen text-black ${
+        mode === "day" ? "bg-[##E9E9E9] text-black" : "bg-[#1a1a1a] text-white"
+      } items-center mx-auto pb-[700px]`}
     >
       {children}
     </div>

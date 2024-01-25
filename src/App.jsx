@@ -1,6 +1,7 @@
 import { useState } from "react";
 import { Container } from "./components/Container";
 import { Navbar } from "./components/Navbar";
+import { Hero } from "./components/Hero/Hero";
 
 function App() {
   const [mode, setMode] = useState("nigth");
@@ -19,7 +20,9 @@ function App() {
   return (
     <>
       <Navbar mode={mode} handleChange={handleChange} />
-      <Container mode={mode} h></Container>
+      <Container mode={mode}>
+        <Hero/>
+      </Container>
     </>
   );
 }
