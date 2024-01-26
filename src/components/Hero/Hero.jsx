@@ -15,7 +15,7 @@ const Hero = () => {
           <h3 className="flex items-center justify-center">
             Ivan França de Oliveira Junior
           </h3>
-          <h3 className="flex items-center justify-center"> Rio de janeiro, RJ.</h3>
+          <h3 className="flex items-center justify-center mb-4"> Rio de janeiro, RJ.</h3>
           <Socials />
           <Button>VER PROJETOS</Button>
         </div>

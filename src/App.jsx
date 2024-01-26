@@ -27,7 +27,7 @@ function App() {
         <About />
         <Contact />
       </Container>
-      <Footer />
+      <Footer mode={mode} />
     </>
   );
 }

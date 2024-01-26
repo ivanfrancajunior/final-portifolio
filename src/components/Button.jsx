@@ -1,9 +1,8 @@
-import PropTypes from "prop-types";
 const Button = ({ children }) => {
   return (
-    <div className="mx-8 text-xl  ">
+    <div>
       <button
-        className={`flex items-center justify-center border-2  w-full min-w-[150px]  py-2 px-4  rounded-s-full rounded-e-full`}
+        className={`class="inline-block border border-[#7747FF] py-1 px-4 rounded-lg min-w-[150px] bg-[#7747FF] hover:bg-white hover:text-[#7747FF] focus:text-[#7747FF] focus:bg-gray-200 text-gray-50 font-bold leading-loose transition duration-200"`}
       >
         {children}
       </button>
@@ -11,8 +10,5 @@ const Button = ({ children }) => {
   );
 };
 
-Button.PropTypes = {
-  children: PropTypes.func.isRequired,
-};
-export { Button };
 
+export { Button };
