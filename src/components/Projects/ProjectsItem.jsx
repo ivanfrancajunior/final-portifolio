@@ -1,9 +1,10 @@
 import { Button } from "../Button";
 
 const ProjectsItem = ({project}) => {
+  
   return (
-    <div className="h-[470px] w-[360px] bg-orange-400 flex flex-col items-center justify-start border">
-      <div className="flex items-center justify-center bg-pink-950 w-full h-48 mb-3">
+    <div className="min-h-[470px] w-[360px] bg-orange-400 flex flex-col items-center justify-start border">
+      <div className="flex items-center justify-center bg-pink-950 w-full min-h-48 mb-3">
         <img src="" alt="" />
       </div>
       <h3 className="bg-green-500 w-full mb-3">PROJECT TITLE</h3>
@@ -13,7 +14,7 @@ const ProjectsItem = ({project}) => {
         <li className="list-disc">PROJETC FEATURE</li>
         <li className="list-disc">PROJETC FEATURE</li>
       </ul>
-      <div className="flex items-center  h-40">
+      <div className="flex items-center h-40 my-4">
         tec stack
       </div>
       <div className="flex items-center justify-center ">

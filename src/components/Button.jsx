@@ -1,8 +1,9 @@
+import PropTypes from "prop-types";
 const Button = ({ children }) => {
   return (
-    <div className="mx-8 text-xl mt-6 pb-4">
+    <div className="mx-8 text-xl  ">
       <button
-        className={`border-2  w-full min-w-[150px] max-w-[300px] p-3  rounded-s-full rounded-e-full`}
+        className={`flex items-center justify-center border-2  w-full min-w-[150px]  py-2 px-4  rounded-s-full rounded-e-full`}
       >
         {children}
       </button>
@@ -10,4 +11,8 @@ const Button = ({ children }) => {
   );
 };
 
+Button.PropTypes = {
+  children: PropTypes.func.isRequired,
+};
 export { Button };
+
